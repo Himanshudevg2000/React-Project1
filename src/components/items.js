@@ -1,6 +1,7 @@
 
 function Items(){
-    return <h2> Food Rs 10
+    return <h2> 
+	Food Rs 10
 
 	Petrol Rs 100
 
