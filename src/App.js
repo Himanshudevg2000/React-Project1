@@ -8,14 +8,14 @@ const DUMMY_EXPENSES = [
     id: 'e1',
     title: 'Toilet Paper',
     amount: 94.12,
-    date: new Date(),
+    date: new Date(2020, 7, 15),
     LocationOfExpenditure: 'Shop'
   },
   {
     id: 'e2',
     title: 'New TV',
     amount: 799.49,
-    date: new Date(),
+    date: new Date(2021, 7, 13),
     LocationOfExpenditure: 'Online'
   },
   {
@@ -29,7 +29,21 @@ const DUMMY_EXPENSES = [
     id: 'e4',
     title: 'New Desk (Wooden)',
     amount: 450,
-    date: new Date(2022, 3,12),
+    date: new Date(2022, 3,14),
+    LocationOfExpenditure: 'Shop'
+  },
+  {
+    id: 'e5',
+    title: 'New Desk (Sagun)',
+    amount: 900,
+    date: new Date(2021, 1,25),
+    LocationOfExpenditure: 'Shop'
+  },
+  {
+    id: 'e6',
+    title: 'LAPTOP',
+    amount: 50000,
+    date: new Date(2020, 1,25),
     LocationOfExpenditure: 'Shop'
   },
 ];
