@@ -46,6 +46,13 @@ const DUMMY_EXPENSES = [
     date: new Date(2020, 1,25),
     LocationOfExpenditure: 'Shop'
   },
+  {
+    id: 'e7',
+    title: 'Mobile',
+    amount: 20000,
+    date: new Date(2019, 7,13),
+    LocationOfExpenditure: 'Online'
+  },
 ];
 
 const App = () => {
